@@ -2,8 +2,8 @@ cantidad_positivos=0
 cantidad_negativos=0
 par=0
 impar=0
-for i in range (6):
-    num= int(input("Ingrese 10 números: "))
+for i in range (100):
+    num= int(input("Ingrese 100 números: "))
     
     if num >= 0:
         cantidad_positivos +=1
