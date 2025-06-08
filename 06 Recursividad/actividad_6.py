@@ -51,12 +51,10 @@ def probar_suma_digitos_usuario():
             print(f"La suma de los dígitos de {numero} es: {resultado_suma}")
         
         except ValueError as e:
-            # Capturamos errores de la función suma_digitos (si el número es negativo)
-            # o si la entrada del usuario no es un número válido.
+            
             print(f"Error: {e}. Por favor, ingrese un número entero positivo válido.")
         except Exception as e:
             # Captura cualquier otro error inesperado
             print(f"Ocurrió un error inesperado: {e}")
 
-# Ejecutar el algoritmo para probar la función con entrada de usuario
 probar_suma_digitos_usuario()    

@@ -21,8 +21,7 @@ def contar_bloques(n):
     if n == 1:
         return 1
     else:
-        # Caso Recursivo: Sumamos los bloques del nivel actual (n)
-        # más los bloques de los niveles superiores (contar_bloques(n-1))
+        
         return n + contar_bloques(n - 1)
 def probar_contar_bloques():
     """

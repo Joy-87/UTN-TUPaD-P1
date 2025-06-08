@@ -18,7 +18,6 @@ def contar_digito(numero, digito):
         raise ValueError("El 'numero' debe ser un entero positivo o cero.")
     if not isinstance(digito, int) or not (0 <= digito <= 9):
         raise ValueError("El 'digito' debe ser un entero entre 0 y 9.")
-
    
     if numero == 0:
         return 1 if digito == 0 else 0

@@ -21,8 +21,6 @@ def probar_es_palindromo():
     """
     Algoritmo general para probar la función es_palindromo con entrada de usuario.
     """
-    
-
     palabra_usuario = input("Ingrese una palabra (sin espacios ni tildes): ")
 
     
@@ -33,6 +31,5 @@ def probar_es_palindromo():
         print(f"¡Sí! '{palabra_usuario}' ES un palíndromo.")
     else:
         print(f"No. '{palabra_usuario}' NO es un palíndromo.")
-
-    
+  
 probar_es_palindromo()

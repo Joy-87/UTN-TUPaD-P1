@@ -21,6 +21,4 @@ def decimal_binario_opcion1(num_decimal):
     else:
         
         return decimal_binario_opcion1(cociente) + str(resto)
-
-
 print(f"10 en binario: {decimal_binario_opcion1(10)}") 

@@ -7,6 +7,7 @@ def fibonacci_recursivo(posicion):
     else:
         return fibonacci_recursivo(posicion - 1) + fibonacci_recursivo(posicion - 2)
 
+
 def mostrar_serie_fibonacci():
     
     while True:

@@ -75,5 +75,6 @@ def probar_potencia_recursiva():
 
     print("\nTodas las pruebas se completaron.")
 
+
 # Ejecutar el algoritmo de prueba
 probar_potencia_recursiva()

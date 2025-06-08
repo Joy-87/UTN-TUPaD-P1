@@ -19,6 +19,5 @@ def calcular_factoriales_hasta_n():
     for i in range(1, num_usuario + 1):
         print(f"El factorial de {i} es: {factorial_recursivo(i)}")
 
-
 if __name__ == "__main__":
     calcular_factoriales_hasta_n()
