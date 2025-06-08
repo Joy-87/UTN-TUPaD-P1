@@ -4,7 +4,6 @@ def calcular_imc(peso, altura):
         return None # Evitar división por cero o altura inválida
     return peso / (altura ** 2)
 
-
 try:
     peso_usuario = float(input("Ingresa tu peso en kilogramos (ej. 70.5): "))
     altura_usuario = float(input("Ingresa tu altura en metros (ej. 1.75): "))

@@ -1,7 +1,6 @@
 def calcular_promedio(a, b, c):
     
     return (a + b + c) / 3
-
 try:
     num1_prom = float(input("Ingresa el primer número para el promedio: "))
     num2_prom = float(input("Ingresa el segundo número para el promedio: "))

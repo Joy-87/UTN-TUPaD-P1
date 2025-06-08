@@ -1,7 +1,6 @@
 def celsius_a_fahrenheit(celsius):
     
     return (celsius * 9/5) + 32
-
 try:
     temp_celsius = float(input("Ingresa la temperatura en grados Celsius: "))
     temp_fahrenheit = celsius_a_fahrenheit(temp_celsius)

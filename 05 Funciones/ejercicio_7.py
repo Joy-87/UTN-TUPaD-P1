@@ -1,5 +1,4 @@
-def operaciones_basicas(a, b):
-    
+def operaciones_basicas(a, b): 
     suma = a + b
     resta = a - b
     multiplicacion = a * b
